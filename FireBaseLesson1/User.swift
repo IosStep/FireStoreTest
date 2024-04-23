@@ -13,6 +13,13 @@ struct User: Codable {
     var lastName: String
 }
 
+struct Chat: Codable {
+    var text: String
+    var date: String
+    var id: String
+    var isRead: Bool
+}
+
 struct UserResponse {
     var born: Int
     var firstName: String
@@ -26,3 +33,5 @@ struct UserResponse {
         self.id = id
     }
 }
+
+

@@ -14,73 +14,13 @@
             filePath = "FireBaseLesson1/FirebaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "getUsers(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - 717f33a22e75fccb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireBaseLesson1.FirebaseManager.getUsers(completion: (Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "FireBaseLesson1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "516">
-               </Location>
-               <Location
-                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - 717f33a22e75fccb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireBaseLesson1.FirebaseManager.getUsers(completion: (Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "FireBaseLesson1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "544">
-               </Location>
-               <Location
-                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - fa5410dd688acaf1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireBaseLesson1.FirebaseManager.getUsers(completion: (Swift.Dictionary&lt;Swift.String, Any&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "FireBaseLesson1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "636">
-               </Location>
-               <Location
-                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - f83f08530b5ca198"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireBaseLesson1.FirebaseManager.getUsers(completion: (Swift.Array&lt;FireBaseLesson1.User&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "FireBaseLesson1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "620">
-               </Location>
-               <Location
-                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - 9c3d194d8ce390ca"
+                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - 9c3d194d8ce39ad8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -90,8 +30,23 @@
                   urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+               <Location
+                  uuid = "C0C62851-671A-40E9-B773-C488E71D7B52 - 9c3d194d8ce39a39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in FireBaseLesson1.FirebaseManager.getUsers(completion: (Swift.Array&lt;FireBaseLesson1.UserResponse&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "FireBaseLesson1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
                   offsetFromSymbolStart = "592">
                </Location>
             </Locations>
@@ -107,10 +62,42 @@
             filePath = "FireBaseLesson1/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "textFieldShouldReturn(_:)"
-            landmarkType = "7">
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "ViewController"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "BC9693F2-89F9-4613-9068-3F76C9268F15 - d9d7374482d4cc05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseLesson1.ViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "FireBaseLesson1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "BC9693F2-89F9-4613-9068-3F76C9268F15 - d9d7374482d4cce6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseLesson1.ViewController.textFieldShouldReturn(__C.UITextField) -&gt; Swift.Bool"
+                  moduleName = "FireBaseLesson1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "792">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -123,26 +110,42 @@
             filePath = "FireBaseLesson1/FirebaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "updateUser(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "75C003BC-2282-40FC-8AF2-18A693343D1F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "FireBaseLesson1/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "addUser()"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BD587B71-1F57-4416-B873-AAF1B77967F4 - 5f20c7e0c4efa765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseLesson1.FirebaseManager.deleteUser(FireBaseLesson1.UserResponse) -&gt; ()"
+                  moduleName = "FireBaseLesson1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "BD587B71-1F57-4416-B873-AAF1B77967F4 - 63d4e47991ec8675"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FireBaseLesson1.FirebaseManager.updateUser(FireBaseLesson1.UserResponse) -&gt; ()"
+                  moduleName = "FireBaseLesson1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/a.atpv/Documents/Programming/IOS/FireBaseLesson1/FireBaseLesson1/FirebaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

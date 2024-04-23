@@ -4,6 +4,8 @@ import SnapKit
 class ViewController: UIViewController {
     
     let firebaseManager = FirebaseManager.shared
+     
+    var didAppearAction: ((Int) -> ())?
     
     var users = [UserResponse]()
     lazy var button: UIButton = {
@@ -28,16 +30,17 @@ class ViewController: UIViewController {
 //            print(users)
 //            self.users = users
 //        }
-        firebaseManager.deleteUser(users[0])
+//        firebaseManager.deleteUser(users[0]
+        firebaseManager.createMessage(text: textField.text!,  date: Date().description)
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        firebaseManager.getUsers { users in
-            print(users)
-            self.users = users
-        }
+//        firebaseManager.getUsers { users in
+//            print(users)
+//            self.users = users
+//        }
         view.backgroundColor = .white
         view.addSubview(button)
         view.addSubview(textField)
@@ -52,6 +55,10 @@ class ViewController: UIViewController {
             make.leading.trailing.equalToSuperview().inset(12)
         }
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        didAppearAction?(90)
+    }
 }
 
 
@@ -60,11 +67,11 @@ extension ViewController: UITextFieldDelegate {
 //        
 //    }
     
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        var user = users[0]
-        print(user)
-        user.lastName = textField.text!
-        firebaseManager.updateUser(user)
-        return true
-    }
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        var user = users[0]
+//        print(user)
+//        user.lastName = textField.text!
+//        firebaseManager.updateUser(user)
+//        return true
+//    }
 }
